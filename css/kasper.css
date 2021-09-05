@@ -317,7 +317,7 @@ background-color: rgba(0, 0, 0, 77%);
       flex-direction: row;
       justify-content: space-between;
       gap: 25px;
-      margin-bottom: 100px;
+      margin-bottom: 40px;
   }
 }
 .feature .container img {
@@ -384,8 +384,10 @@ background-color: rgba(0, 0, 0, 77%);
 /* And feature*/
  /* Start Portfolio */
  .portfolio {
-
   background-color: white;
+}
+.portfolio .container {
+  margin-bottom: 80px;
 }
 .portfolio .portfolio-content {
 margin-top: 100px; 
