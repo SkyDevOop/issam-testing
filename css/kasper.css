@@ -357,7 +357,7 @@ background-color: rgba(0, 0, 0, 77%);
   word-spacing: 2px;
   text-indent: 11%;
   margin: 15px auto 50px;
-  background-color: wheat;
+  background-color: #f6f6f6;
   border-radius: 12px;
   padding: 11px;
   width: 220px;
@@ -382,32 +382,49 @@ background-color: rgba(0, 0, 0, 77%);
   margin: 6px 0px;
 }
 /* And feature*/
- /* Start Portfolio */
- .portfolio {
+ /* Start Services */
+ .services {
   background-color: white;
 }
-.portfolio .container {
+.services .container {
   margin-bottom: 80px;
 }
-.portfolio .portfolio-content {
+@media (max-width: 992px) {
+  .services .container .special-heading {
+    font-size: 56px;
+  }
+  .services .container .special-heading + P {
+    font-size: 10px;
+    margin-top: -15px;
+  }
+}
+@media (max-width: 767px) {
+  .services .container .special-heading {
+    font-size: 47px;
+  }
+  .services .container .special-heading + P {
+    margin: -12px 0 0;
+    font-size: 8px;
+  }
+}
+.services .services-content {
 margin-top: 100px; 
 }
-
-.portfolio .portfolio-content .card {
+.services .services-content .card {
 background-color:#ebeced ;
 }
-.portfolio .portfolio-content .card img {
+.services .services-content .card img {
 width: 100%;
 }
-.portfolio .portfolio-content .card .info {
+.services .services-content .card .info {
 padding: 20px;
 }
-.portfolio .portfolio-content .card .info  h3 {
+.services .services-content .card .info  h3 {
 margin: 0;
 text-align: center;
 }
 /* End Portfolio */
-/* Start NIVEAUX SCOLAIRES */
+/* Start AUX SCOLAIRES */
 .Niveau {
   background-color: #f6f6f6;
 }
@@ -417,6 +434,24 @@ text-align: center;
 .Niveau .container .only + P {
   font-size: 16px;
   margin-top: -18px;
+}
+@media (max-width: 992px) {
+  .Niveau .container .special-heading {
+    font-size: 52px;
+  }
+  .Niveau .container .special-heading + p {
+    font-size: 10px;
+    margin-top: -12px;
+  }
+}
+@media (max-width: 767px) {
+  .Niveau .container .special-heading {
+    font-size: 37px;
+  }
+  .Niveau .container .special-heading + p {
+    font-size: 8px;
+    margin-top: -10px;
+  }
 }
 .Niveau .niveau-content {
   margin-top: 100px;
