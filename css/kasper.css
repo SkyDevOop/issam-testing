@@ -353,15 +353,15 @@ background-color: rgba(0, 0, 0, 77%);
   }
 }
 .feature .text-one h2 {
-  font-size: 15px;
+  font-size: 35px;
   font-weight: 800;
   word-spacing: 2px;
   text-indent: 11%;
-  margin: 15px auto 50px;
+  margin: 13px auto 16px;
   background-color: #f6f6f6;
   border-radius: 12px;
   padding: 11px;
-  width: 220px;
+  width: 431px;
 }
 .feature .text-one P {
   font-size: 19px;
